@@ -1,0 +1,18 @@
+//operador "=" asigna un valor a una variable (pueden ser distintos "objetos").
+//operador "+=" lo que hace es sumar el numero1 y numero2 pero guarda el resultado en numero1
+  numero1 += numero2;//var valor = numero1 + numero2;
+
+//operador "-=" lo que hace es restar el numero1 y numero2 pero guarda el resultado en numero1
+  numero1 -= numero2;//var valor = numero1 - numero2;
+
+//operador "*=" lo que hace es multiplicar el numero1 y numero2 pero guarda el resultado en numero1
+  numero1 *= numero2;//var valor = numero1 * numero2;
+
+
+//operador "/=" lo que hace es dividir el numero1 y numero2 pero guarda el resultado en numero1
+  numero1 /= numero2;//var valor = numero1 / numero2 (para esta asignación debo poner un dato en objeto "double")
+
+//operador "%=" lo que haces es ver el resto entre numero1 y numero pero guarda el resultado en numero1
+  numero1 %= numero2;//var valor = numero1 % numero2;
+  
+//debo recordar que en cada linea de codigo se va guardando lo que voy haciendo al utilizar operadores de asignación;
