@@ -1,17 +1,18 @@
-void main() {
-//OBJETOS DENTRO DE DART. SIEMPRE SE CIERRA LA LINEA CON ";". SE UTILIZAN EJEMPLOS
- 
- //int es para guardar números enteros
-  int entero = 80;
+//Void main () { se utiliza para inicializar el código dentro de Flutter o Dart
+ void main() {
 
- //string es para guardar texto
+//Operadores de Asignación "=" se utiliza para guardar un valor dentro de la variable que hayamos puesto
+//int es para guardar números enteros
+  int entero = 80;//aqui por ejemplo "int" es el objeto, "=" es el operador de asignación y "entero" es la variable donde guardaremos el valor a la derecha de "="
+
+//string es para guardar texto
   String cadena = "Numero";
 
- //double es para guardar números con decimales
+//double es para guardar números con decimales
   double doble = 98.0;
 
- //bool es para guardar valores verdaderos o falsos
+//bool es para guardar valores verdaderos o falsos
   bool value = true;
 
- //var puede almacenar todos los objetos anteriores
+//var puede almacenar todos los objetos anteriores
   var variable = 15;
