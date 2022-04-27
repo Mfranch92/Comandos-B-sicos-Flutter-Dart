@@ -1,0 +1,11 @@
+  //operador de pre incremento "++variable" primero incrementa el valor en 1 a data1 y se le asigna a la variable creada "value"
+  //var value = ++data1;
+  
+  ////operador de post incremento "++" lo que hace es asignar el valor data1 a la variable value y despues incrementa el valor de data1 en 1
+  //var value = data1++;
+  
+  //operador de post decremento "--" lo que  hace es asignar el valor data1 a la variable value y despues decrementa el valor de data1 en 1
+  //var value = data1--;
+  
+  //operador de pre decremento "++variable" primero decrementar el valor en 1 a data1 y se le asigna a la variable creada "value"
+  //var value = --data1;
