@@ -12,6 +12,9 @@
 //operador "/=" lo que hace es dividir el numero1 y numero2 pero guarda el resultado en numero1
   numero1 /= numero2;//var valor = numero1 / numero2 (para esta asignación debo poner un dato en objeto "double")
 
+//operador "~/" lo que haces es dividir el numero1 y el numero2 pero guarda el resultado en numero1, sin embargo solo me devuelve la parte entera de la division.
+ numero1 ~/= numero2;//var valor = numero1 ~/ numero2 ((para esta asignación ya NO debo poner un dato en objeto "double")
+ 
 //operador "%=" lo que haces es ver el resto entre numero1 y numero pero guarda el resultado en numero1
   numero1 %= numero2;//var valor = numero1 % numero2;
   
@@ -20,10 +23,12 @@
 //para asignaciones ya no creamos una variable "var valor =" sino que simplemente operamos asignando operadores a las variables previas
 //ejemplo
 
+//operador de asignación "=" si el valor es "null" (si es null asigna un nuevo valor, sino devuelve el mismo que ya tenía)
 void main() {
-  var numero1 = 5;
+  var numero1 = 10;
   var numero2 = 5;
-  numero1 += numero2
+  numero1??=15;
   print(numero1);
 }
-//devolvería el valor 10 que queda guardado en la variable "numero1", es decir ahora numero1 vale 10
+
+
