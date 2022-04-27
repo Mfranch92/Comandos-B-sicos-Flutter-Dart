@@ -31,4 +31,12 @@ void main() {
   print(numero1);
 }
 
+//otro ejemplo para verificar si tenemos un dato nulo y queremos asignar un valor (int, string o double)
+void main() {
+  var numero1 = null;
+  var numero2 = 2;
+
+  numero1 ??="no hay valores";
+  print(numero1);
+//me devolveria "no hay valores" ya que numero1 es null
 
