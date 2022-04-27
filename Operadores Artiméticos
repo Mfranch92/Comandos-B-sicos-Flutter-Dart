@@ -1,0 +1,16 @@
+//EJEMPLOS. UTILIZAMOS VAR EN LUGAR DE OTROS OBJETOS PARA SER MÁS PRÁCTICOS  
+  var numero1 = 10;
+  var numero2 = 4;
+  
+//SUMA  
+  var valor = numero1 + numero2;
+//RESTA
+  var valor = numero1 - numero2;
+//DIVISIÓN
+  var valor = numero1 / numero2;
+//MULTIPLICACIÓN
+  var valor = numero1 * numero2;
+//RESTO
+  var valor = numero1 % numero2;
+//CONCATENAR (se utiliza ".toString" para modificar la variable a formato de texto, ya que no se puede concatenar int y string
+  var valorconcatenado = "El número es " + numero2.toString;
