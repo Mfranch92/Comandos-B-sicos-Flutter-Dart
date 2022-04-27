@@ -1,0 +1,10 @@
+//SIRVEN PARA COMPARAR INFORMACIÓN. SE ALMACENAN EN BOOL
+//operador > para mostrar cual dato es mayor y se almacena en bool (si es correcto devuelve true sino false)
+//operador < para mostrar cual dato es mayor y se almacena en bool (si es correcto devuelve true sino false)
+//operador >= para mostrar si el dato es mayor o igual que el otro dato y se almacena en bool (si es correcto devuelve true sino false)
+//operador <= para mostrar si el dato es menor o igual que el otro dato y se almacena en bool (si es correcto devuelve true sino false)
+//operador == (igual igual) para verificar si los datos son iguales y se almacena en bool (si es correcto devuelve true sino false)
+//operador != (distinto) para verificar si son datos son distintos y se almacena en bool (si es correcto devuelve true sino false)
+
+//se puede comparar tambien la cantidad de caracteres cuando los var son strings
+
