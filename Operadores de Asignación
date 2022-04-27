@@ -16,3 +16,14 @@
   numero1 %= numero2;//var valor = numero1 % numero2;
   
 //debo recordar que en cada linea de codigo se va guardando lo que voy haciendo al utilizar operadores de asignación;
+
+//para asignaciones ya no creamos una variable "var valor =" sino que simplemente operamos asignando operadores a las variables previas
+//ejemplo
+
+void main() {
+  var numero1 = 5;
+  var numero2 = 5;
+  numero1 += numero2
+  print(numero1);
+}
+//devolvería el valor 10 que queda guardado en la variable "numero1", es decir ahora numero1 vale 10
