@@ -8,6 +8,8 @@
   var valor = numero1 - numero2;
 //DIVISIÓN
   var valor = numero1 / numero2;
+//DIVISION QUE DEVUELVE SOLO ENTERO (es decir si tenemos 11 dividido 5, devuelve 2)
+  var valor = numero1 ~/numero2;
 //MULTIPLICACIÓN
   var valor = numero1 * numero2;
 //RESTO
