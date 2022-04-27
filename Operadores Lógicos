@@ -1,0 +1,8 @@
+Sirve para agrupar comparaciones
+  //operador "&&" "and" necesita que en la comparación ambos miembros devuelvan true
+  //ejemplo. Para que devuelve true, ambas comparaciones (izquierda y derecha de &&) deben ser ciertos para que sean true
+  var valor = numero1 > numero2 && numero2<numero1;
+  
+  //operador "||" "or" necesita que en la comparación solo un miembro sea true
+  //operador "!" "no" sirve para negar el resultado de bool, es decir si me diera verdadero "true" lo convierte en falso "false"
+  
