@@ -1,0 +1,39 @@
+
+//operador bit a bit "<<" para desplazar a la izquierda. Lo que hace es multiplicar por 2 el valor que nosotros asignamos, para este ejemplo data1 y se almacena en data2 porque usamos un operador de asignación a data2.
+void main() {
+  var data1 = 33;
+  var data2 = 2;
+  //para este ejemplo el valor 1 a la derecha me indica que avanzo un bit a la izquierda, entonces el valor en data1 se multiplica por 2
+  // data2 = data1 << 1;//33x2 = 66
+
+  //si tomamos como ejemplo el valor 2, nos indica que nos desplazamos 2 bit a la izquierda, entonces el valor en data1 se multiplica dos veces por 2
+  data2 = data1 << 2;//33x2 = 132
+  //132 = 10000100 esto vale 132 en binario
+  //33 = 100001 esto vale 33 en binario
+  //si tomamos como ejemplo el valor 3, nos indica que nos desplazamos 3 bit a la izquierda, entonces el valor en data1 se multiplica dos veces por 2
+  //data2 = data1 << 3;//33x2x2*2 = 264
+
+  //aqui asignamos al valor value lo de data2 pero convertido a binario usando "toRadixString" y poniendo el valor de 2
+  var value1 = data1.toRadixString(2);
+  var value2 = data2.toRadixString(2);
+  //132 = 10000100 esto vale 132 en binario
+  //33 =  100001 esto vale 33 en binario
+  //aqui vemos como funciona el operador. 100001__ desplazo 2 bit a la izquierda añadiendo esos guiones a la derecha, lo que hace es cuando no hay numeros pone 0,
+  //entonces queda 10000100 como lo que da 132 con el operador
+  print(value2);
+}
+
+
+
+//operador bit a bit "<<" para desplazar a la derecha. Lo que hace es dividir por 2 el valor que nosotros asignamos, para este ejemplo data1 y se almacena en data2 porque usamos un operador de asignación a data2.
+void main() {
+  var data1 = 132;
+  var data2 = 2;
+  data2 = data1 >> 2;//132/2/2 = 33;
+
+  //var value = data2.toRadixString(2);
+  //ahora como hacer inversa para convertir binario a int
+  var value = int.parse("10000100",radix: 2);
+  print(value);
+}
+//lo mismo que arriba pero va dividiendo por 2
